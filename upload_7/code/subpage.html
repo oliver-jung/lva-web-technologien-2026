@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My awesome project</title>
+		<meta name="viewport" content="width=device-width">
+		<meta charset="UTF-8">
+		<meta name="author" content="Max Mustermann">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="subpage.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="scraper.js"></script>
+		<script src="main.js"></script>
+	</head>
+	<body onload="getManufacturers();getData();">
+		<nav>
+		 <div class="burger">
+		   <a>=Menu=</a>
+		 </div>
+		 <ul class="menu">
+		   <li><a href="index.html">Home</a></li> 
+		   <li><a href="#">Subpage</a></li>
+		 </ul>
+		</nav>
+		<h1>Subpage</h1>
+		<article>
+			<aside class="right-side">
+				<img id="meme" src="https://cdn.netzpolitik.org/wp-upload/one-does-not-meme.jpg" alt="One does not meme"/>
+			</aside>
+			<p>A subpage about my awesome project</p>
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+			<p><button>When I click here something will happen (not yet)</button></p>
+		</article>
+		<div id="manufacturer-list">		
+		</div>
+		<div id="tableData"></div>
+		<footer>&copy; Copyright - not really</footer>
+	</body>
+</html>
